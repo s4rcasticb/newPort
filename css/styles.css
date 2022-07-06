@@ -1,0 +1,179 @@
+
+/******************* TAG SELECTOR ******************************/
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E; 
+}
+
+
+h1 {
+    margin: 50 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 2rem;
+    color: #66BFBF;
+    font-weight: bolder;
+
+
+
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+
+a:visited{
+    background-color: #66BFBF;
+    color: #11999E;
+}
+
+hr {
+    margin: 5rem auto;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-top-width: 6px;
+    width: 4%;
+    
+    
+}
+
+/******************* CLASS SELECTOR (.)******************************/
+.top-container {
+    background-color: #EAF6F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.mid-images-top {
+    border-radius: 5%;
+    /* height: 200px; */
+    width: 35%;
+    float: left;
+    padding-right: 30px;
+    /* padding-left:  */
+}
+
+.mid-images-bot {
+    border-radius: 5%;
+    /* height: 200px; */
+    width: 35%;
+    float: right;
+    padding-right: 30px;
+    /* padding-left:  */
+}
+
+.top-cloud {
+    
+    position: absolute; 
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    display: block;
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+}
+
+
+.skill-row {
+
+    width: 50%;
+    margin: 100px auto 0px auto;
+    text-align: left;
+    line-height: 2;
+    padding-bottom: 5rem;
+    
+
+}
+
+.middle-container {
+    padding-top: 5rem;
+
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    height: 6rem;
+    padding-top: 5rem; 
+}
+
+
+
+.footer-link {
+    background-color: #11999E;
+    text-align: center;
+    margin: 1rem 2rem 0rem 2rem;
+    text-decoration: none;
+
+}
+
+.coding-exp {
+    font-size: 15px;
+
+}
+
+.other-exp {
+    font-size: 15px;
+    
+}
+
+.contact-me {
+    padding-bottom: 5rem;
+
+}
+
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat' , sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background:  #30e3cb;
+    background-image: -webkit-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top,  #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+
+
+
+/******************* ID SELECTOR (#) ******************************/
+
+#copyright {
+    padding-top: 20px;
+    color: white;
+
+}
